@@ -5,7 +5,7 @@ Dank memes
 *Victor Sodéus*
 
 ## Bakgrund
-#### Syftet med denna uppgift är att få erfarenhet i att faktiskt göra en webbplats.
+###### Syftet med denna uppgift är att få erfarenhet i att faktiskt göra en webbplats.
 ## Planering
 #### Planeringen öhh va?
 ### Innehåll
@@ -26,9 +26,9 @@ Dank memes
 
 ##### Bakgrund - #C98460
 ###### Användningsområde
-###### HEX - #C98460: ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#C98460")
+###### HEX - #C98460: ![alt-text](https://via.placeholder.com/2040/C98460/C98460?Text=%20%20)
 
-###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### RGB - rgb(201, 132, 96): ![alt-text](https://via.placeholder.com/20/C98460/C98460?Text=%20%20)
 
 ##### Element - DE YORK
 ###### Användningsområde
