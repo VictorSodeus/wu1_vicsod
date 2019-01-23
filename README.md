@@ -24,9 +24,9 @@ Dank memes
 ###### #DCAA6D
 ###### #E0C89A
 
-##### Bakgrund - DAWN PINK
+##### Bakgrund - #C98460
 ###### Användningsområde
-###### HEX - #F0E7DC: ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
+###### HEX - #C98460: ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#C98460")
 
 ###### RGB - rgb(241,242,243): ![alt-text](https://via.placeholder.com/20/F0E7DC/F0E7DC?Text=%20 "#F0E7DC")
 
