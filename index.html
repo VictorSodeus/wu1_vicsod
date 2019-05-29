@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Classical Music Blog</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="preloader" id="preloader">
+		<div class="generating-music">
+			Generating Music...
+		</div>
+		<div class="loading-spinning-window-thingy">
+			<div class="spinning-thingy"></div>
+			<div><img src="https://piedestalen.files.wordpress.com/2012/01/fingerdjur-madagascar.jpg" alt="Vackert fingerdjur"></div>
+		</div>
+	</div>
+	<!-- I've put the script here because I don't want to import my other scripts at the same time as this one. Besides, this script is short enough. -->
+	<script type="text/javascript">
+		window.addEventListener("load", function () {
+			const loader = document.querySelector(".preloader");
+			loader.className += " hidden"; // class "loader hidden"
+		});
+	</script>
+
+	<div class="navbar-icon">
+		<i class="fas fa-bars"></i>
+		<nav>
+			<div class="wrapper">
+				<ul>
+					<li class="hover"><img src="https://piedestalen.files.wordpress.com/2012/01/fingerdjur-madagascar.jpg" alt="Fingerdjur" height=50px></li>
+					<li class="hover"><a href="index.html">Home</a></li>
+					<li class="hover"><a href="pick.html">Pick Your Instrument</a></li>
+					<li class="hover"><a href="Usuck.html">U-Suck-O-Meter: >9000</a></li>
+					<li class="hover"><a href="#">About me XD</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="welcome parallaxbg" data-image-src="Classical music violin TM.png" data-stellar-background-ratio="0.3">
+			<h1>Classical Music Blog</h1>
+	</div>
+
+	<div class="content homepage">
+		<div class="wrapper">
+			<div class="articles">
+				<div class="content-box hover">
+					<div class="latest"><h2>Latest Posts</h2></div>
+					<hr>
+					<div><p>Watch out latests post brotha'</p></div>
+				</div>
+				<div class="content-box hover">
+					<a href="#">
+						<div class="internet"><h2>Internets Historia</h2></div>
+						<hr>
+						<div><p>Get a good understanding of the internet's history. (Not really)</p></div>
+					</a>
+				</div>
+				<div class="content-box hover">
+					<div class="wtf"><h2>Mannen WTF</h2></div>
+					<hr>
+					<div><p>I don't know what content to add but I guess this will do fine as a filler.</p></div>
+				</div>
+				<div class="content-box hover">
+					<div class="lorem"><h2>Lorem Ipsum XD</h2></div>
+					<hr>
+					<div><p>When you need some dummy text, use Lorem Ipsum.</p></div>
+				</div>
+				<div class="content-box hover">
+					<div class="error"><h2>Error 404</h2></div>
+					<hr>
+					<div><p>See title above...</p></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+		<!-- Contact -->
+			<div>
+				<h3>Contact</h3>
+				<h4><a href="formula.html">Email formula</a></h4>
+				<h4>Email: orrenolle.fuqlogic@gmail.com</h4>
+				<h4>Tel: 072 262 17 19</h4>
+				<h4>Victor Sodéus - Snussnurran Inc.<br>Åvägen 17b, Gothenburg Sweden<br>Copyright ©<br>All rights reserved</h4>
+			</div>
+
+			<!-- Useful links -->
+			<div>
+				<h3>Useful links</h3>
+				<h4><a href="https://radmehr.online/index.html" target="_blank">Radmehr Daniel</a></h4>
+				<h4><a href="http://111111111111111111111111111111111111111111111111111111111111.com/" target="_blank">111111111111111111.com</a></h4>
+				<h4><a href="http://ducksarethebest.com/" target="_blank">Ducks are the best</a></h4>
+				<h4><a href="http://thequietplaceproject.com/thequietplace" target="_blank">A quiet place</a></h4>
+				<h4><a href="http://thatsthefinger.com/" target="_blank">That's the finger</a></h4>
+			</div>
+
+			<!-- Social -->
+			<div>
+				<h3>Social</h3>
+				<div class="social">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=100006802518499" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com/xxvickii360sodeusxx/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://cdn.cnn.com/cnnnext/dam/assets/170531121403-trump-covfefe-tweet-screengrab-super-tease.jpg" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.snapchat.com/add/anki_177"><i class="fab fa-snapchat"></i></a>
+				</div>
+			</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+	<script src="stellar.js"></script>
+	<script src="javascript.js"></script>
+</body>
+
+</html>
