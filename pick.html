@@ -11,6 +11,7 @@
 
 <body class="pick">
 
+	<!-- PRELOADER -->
 	<div class="preloader" id="preloader">
 		<div class="generating-music">
 			Generating Music...
@@ -20,7 +21,7 @@
 			<div><img src="https://piedestalen.files.wordpress.com/2012/01/fingerdjur-madagascar.jpg" alt="Vackert fingerdjur"></div>
 		</div>
 	</div>
-
+	<!-- I've put the script here because I don't want to import my other scripts at the same time as this one. Besides, this script is short enough. -->
 	<script type="text/javascript">
 		window.addEventListener("load", function () {
 			const loader = document.querySelector(".preloader");
@@ -28,16 +29,17 @@
 		});
 	</script>
 
-	<div class="navbar-icon">
-		<i class="fas fa-bars"></i>
+	<!-- NAVBAR -->
+	<div class="navbar">
+		<div class="navbar-icon"><i class="fas fa-bars"></i></div>
 		<nav>
 			<div class="wrapper">
 				<ul>
-					<li class="hover"><img src="https://piedestalen.files.wordpress.com/2012/01/fingerdjur-madagascar.jpg" alt="Fingerdjur" height=50px></li>
+					<li class="hover"><img src="https://piedestalen.files.wordpress.com/2012/01/fingerdjur-madagascar.jpg" alt="Fingerdjur"></li>
 					<li class="hover"><a href="index.html">Home</a></li>
 					<li class="hover"><a href="pick.html">Pick Your Instrument</a></li>
-					<li class="hover"><a href="Usuck.html">U-Suck-O-Meter: >9000</a></li>
-					<li class="hover"><a href="#">About me XD</a></li>
+					<li class="hover"><a href="u-suck.html">U-Suck-O-Meter: >9000</a></li>
+					<li class="hover"><a href="under-construction.html">About me XD</a></li>
 				</ul>
 			</div>
 		</nav>
